@@ -1,0 +1,61 @@
+.blue{
+    background-color:blue;
+}
+.green{
+    background-color: green;
+}
+/* *{
+    outline: 1px red solid;
+} */
+body{
+    min-width: 940px;
+    background: url(img/bg-body.jpg),repeat;
+}
+
+/* css reset */
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0 ;
+}
+/* @media screen and (max-width:768px){
+    
+} */
+nav a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+a:hover{
+    background-color: silver;
+}
+.img_width{
+    max-width: 100%;
+    object-fit: contain;
+}
+.banner .wrap_img{
+    position: relative;
+}
+.banner_content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(000,000, 000, 0.6);
+    color:seashell
+}
+nav .row div{
+    background-color: springgreen;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 14px;
+}
+.banner_content{
+    padding: 20px 20px;
+}
