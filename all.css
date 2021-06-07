@@ -4,17 +4,54 @@
 .green{
     background-color: green;
 }
-/* *{
+*{
     outline: 1px red solid;
-} */
+}
 body{
-    min-width: 940px;
     background: url(img/bg-body.jpg),repeat;
 }
-
 /* css reset */
 h1,h2,h3,p{
     padding: 0;
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#DBF3C5;
+}
+
+header .container-fluid {
+    background-color: #68635D;
+}
+
+/* header .container-fluid a:hover{
+    color:#68635D;
+} */
+header a:hover{
+    background-color: #DBF3C5;
+    color:#68635D;
+}
+header .navbar{
+    padding: 0;
+}
+/* nav .row div{
+    background-color: #68635D;
+    color:#DBF3C5;
+}
+nav .row div:hover{
+    background-color: #DBF3C5;
+    color:#68635D;
+} */
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 14px;
+}
+header .collapse ul{
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+.navbar-brand{
     margin: 0;
 }
 nav ul{
@@ -22,18 +59,12 @@ nav ul{
     margin: 0;
     padding:0 ;
 }
-@media screen and (max-width:768px){
-    main img{
-        max-width: 50%;
-    }
- 
- }   
-}
-.container a{
+
+/* .container a{
     display: inline-block;
     padding: 10px;
-    /* color:#684; */
-} 
+   
+}  */
 .container_a_green{
     color: #9b8;
 }  
@@ -52,20 +83,7 @@ nav ul{
     background-color: rgba(000,000, 000, 0.6);
     color:seashell
 }
-nav .row div{
-    background-color: #68635D;
-    color:#DBF3C5;
-}
-nav .row div:hover{
-    background-color: #DBF3C5;
-    color:#68635D;
-}
-h1{
-    font-size: 25px;
-}
-p{
-    font-size: 14px;
-}
+
 .banner_content{
     padding: 20px 20px;
 }
@@ -97,6 +115,7 @@ h3{
 .text-content li{
     margin-bottom: 25px;
 }
+/* contact-content */
 .contact-content {
     background-color:#d1ecd2 ;
 }
@@ -124,4 +143,14 @@ h3{
 }
 .contact a{
     color:#006400;
+}
+
+@media screen and (max-width:768px) {
+    main img{
+        max-width: 50%;
+    }
+    .wrap-contact .col+.col{
+        border:0;
+        padding-left: 0;
+    }
 }
