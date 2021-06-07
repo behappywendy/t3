@@ -149,6 +149,9 @@ h3{
     main img{
         max-width: 50%;
     }
+    .banner_content{
+        position: relative;
+    }
     .wrap-contact .col+.col{
         border:0;
         padding-left: 0;
