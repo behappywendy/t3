@@ -4,64 +4,78 @@
 .green{
     background-color: green;
 }
-/* *{
+*{
     outline: 1px red solid;
-} */
+}
 body{
     background: url(img/bg-body.jpg),repeat;
+    min-width: 320px;
 }
 /* css reset */
 h1,h2,h3,p{
     padding: 0;
     margin: 0;
 }
-.navbar-light .navbar-nav .nav-link {
-    color:#DBF3C5;
-}
-header .container-fluid {
-    background-color: #68635D;
-}
-
-/* header .container-fluid a:hover{
-    color:#68635D;
-} */
-header a:hover{
-    background-color: #DBF3C5;
-    color:#68635D;
-}
-header .navbar{
-    padding: 0;
-}
-/* nav .row div{
-    background-color: #68635D;
-    color:#DBF3C5;
-}
-nav .row div:hover{
-    background-color: #DBF3C5;
-    color:#68635D;
-} */
 h1{
     font-size: 25px;
 }
 p{
     font-size: 14px;
 }
-header .collapse ul{
-    flex-basis: 100%;
-    justify-content: space-around;
+
+.header_menu{
+    background-color: #68635D;
+    text-align: center;
+    padding: 0;
 }
-.navbar-brand{
-    margin: 0;
+@media(min-width:576px){
+
+    .header_menu .collapse a{
+        line-height: 40px;
+    }
+    .header_menu ul{
+        flex-basis: 100%;
+        justify-content:space-between;
+        padding:0;
+    }
+    .header_menu li{
+        width: 30%;
+    }
+    .header_menu div{
+        padding: 0;
+    }
 }
-nav ul{
-    list-style: none;
-    margin: 0;
-    padding:0 ;
+
+header a:hover{
+    background-color: #DBF3C5;
+    color:#68635D;
 }
-.container_a_green{
+
+.container .header_menu .navbar-nav a{
     color: #9b8;
-}  
-.img_width{
+}
+.container .header_menu .navbar-nav a:hover{
+    color: green;
+}
+
+header button{
+    margin: 0 auto;
+    width: 100%;
+}
+/* carousel-inner */
+.banner-inner{
+    background-color: rgba(000,000, 000, 0.6);
+}
+@media(min-width: 576px){
+    .banner-inner{
+        text-align:left;
+    }
+    
+}
+
+/* banner */
+
+/* .img_width{
     max-width: 100%;
     object-fit: contain;
 }
@@ -84,7 +98,7 @@ nav ul{
 }
 .green-text{
     color:#D9DD90;
-}
+} */
 /* main */
 h3{
     background-color:#d1ecd2;
@@ -155,4 +169,8 @@ h3{
         border:0;
         padding-left: 0;
     }
+    h3{
+        font-size:20px;
+    }
+    
 }
