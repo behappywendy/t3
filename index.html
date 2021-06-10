@@ -19,11 +19,13 @@
 </head>
 
 <body>
-  <div class="container green">
+  <div class="container bg_green">
     <!-- header -->
     <header>
-      <h1 class="bg-white text-center p-4"><img src="img/logo.png" alt="" class="img_width "></h1>
-      <nav class="navbar navbar-expand-md navbar-light header_menu">
+      <a href="##">
+        <h1 class="bg-white text-center p-4"><img src="img/logo.png" alt="logo" class="img_width "></h1>
+      </a>
+      <nav class="navbar navbar-expand-md navbar-light menu">
         <div class="container-fluid ">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,7 +34,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -58,39 +60,15 @@
       </nav>
     </header>
     <!-- banner -->
-    <!-- <div class="banner">
-      <div class="wrap_img">
-        <img src="img/gardening1.jpg" class="w-100" alt="">
-        <div class="banner_content "> -->
-    <!-- banner-content -->
-    <!-- <h2 class="green-text">
-            GARDENING TIPS
-          </h2>
-          <p>This is just a place holder,so you can see what the site would look like. This is just a place holder,so
-            you can see what the site would look like. This is just a place holder,so you can see what the site would
-            look like.
-            <a href="##"><i class="fas fa-arrow-circle-right bg-light rounded-circle"></i></a>
-          </p>
-        </div>
-      </div>
-    </div> -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/gardening1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item active banner-img">
+          <img src="img/gardening1.jpg" class="d-block w-100" alt="gardening1.">
           <div class="carousel-caption d-none d-md-block banner-inner">
-            <h2 class="green-text">
+            <h2>
               GARDENING TIPS
             </h2>
-            <p>1.This is just a place holder,so you can see what the site would look like. This is just a place
+            <p>This is just a place holder,so you can see what the site would look like. This is just a place
               holder,so
               you can see what the site would look like. This is just a place holder,so you can see what the site would
               look like.
@@ -98,24 +76,28 @@
             </p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/gardening1.jpg" class="d-block w-100 h-100" alt="...">
+        <div class="carousel-item banner-img">
+          <img src="img/gardening1.jpg" class="d-block w-100" alt="gardening1.">
           <div class="carousel-caption d-none d-md-block banner-inner">
             <h2>GARDENING TIPS</h2>
-            <p>2.This is just a place holder,so you can see what the site would look like. This is just a place
+            <p>This is just a place holder,so you can see what the site would look like. This is just a place
               holder,so
               you can see what the site would look like. This is just a place holder,so you can see what the site would
-              look like.</p>
+              look like.
+              <a href="##"><i class="fas fa-arrow-circle-right bg-light rounded-circle"></i></a>
+            </p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/gardening1.jpg" class="d-block w-100 h-100" alt="...">
+        <div class="carousel-item banner-img">
+          <img src="img/gardening1.jpg" class="d-block w-100" alt="gardening1.">
           <div class="carousel-caption d-none d-md-block banner-inner">
             <h2>GARDENING TIPS</h2>
-            <p>3.This is just a place holder,so you can see what the site would look like. This is just a place
+            <p>This is just a place holder,so you can see what the site would look like. This is just a place
               holder,so
               you can see what the site would look like. This is just a place holder,so you can see what the site would
-              look like.</p>
+              look like.
+              <a href="##"><i class="fas fa-arrow-circle-right bg-light rounded-circle"></i></a>
+            </p>
           </div>
         </div>
       </div>
@@ -130,128 +112,196 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!-- text -->
-    <section class="text d-md-flex text-light  m-3">
-      <!-- 圖片文字 -->
-      <div class=" col d-flex">
-        <div class="img-width offset-md-1 ">
-          <img src="" alt="" class="border">
-        </div>
-        <div class="offset-md-1">
-          <p class="green-text">Tips</p>
-          <p>This is just a place holder,This is just a place holder.</p>
-        </div>
-      </div>
-      <!-- 圖片文字 -->
-      <div class="col d-flex">
-        <div class="img-width offset-md-1 ">
-          <img src="img/gardening3.jpg" alt="" class="border">
-        </div>
-        <div class="offset-md-1">
-          <p class="green-text">Tips</p>
-          <p>This is just a place holder,This is just a place holder.</p>
+    <!-- cards -->
+    <div class="row banner_card">
+      <div class="card mb-3 col-12 col-lg-4">
+        <div class="row g-0">
+          <div class="col-4 wrap_img">
+            <img src="img/gardening2.jpg" alt="Tips">
+          </div>
+          <div class="col-8 g-0">
+            <div class="card-body">
+              <h5 class="card-title">Tips</h5>
+              <p class="card-text">This is just a place holder,This is just a place holder.</p>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- 圖片文字 -->
-      <div class="col d-flex">
-        <div class="img-width offset-md-1">
-          <img src="img/gardening4.jpg" alt="" class="border">
+      <div class="card mb-3 col col-12 col-lg-4">
+        <div class="row g-0">
+          <div class="col-4 wrap_img">
+            <img src="img/gardening3.jpg" alt="Happy Gardener">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">Happy Gardener</h5>
+              <p class="card-text">This is just a place holder,This is just a place holder.</p>
+            </div>
+          </div>
         </div>
-        <div class="offset-md-1">
-          <p class="green-text">Tips</p>
-          <p>This is just a place holder,This is just a place holder.</p>
+      </div>
+      <div class="card mb-3 col  col-12 col-lg-4">
+        <div class="row g-0">
+          <div class="col-4 wrap_img">
+            <img src="img/gardening4.jpg" alt="planting">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">planting</h5>
+              <p class="card-text">This is just a place holder,This is just a place holder.</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
     <!-- main bg-light  -->
     <main class="container bg-light">
-      <!-- section1: photo-content-->
-      <section class="photo-content py-3">
-        <h3 class="mb-3">FEATURED GARENS</h3>
-        <div class="d-md-flex ">
-          <div class=" col-md-3  p-2">
-            <div class="img-width ">
-              <img src="img/garden1.jpg" alt="" class="w-100">
+      <!-- section1: card featured-gardens-->
+      <secction class="row featured-gardens ">
+        <div class="col">
+          <h3>FEATURED GARDENS</h3>
+        </div>
+        </section>
+        <section class="row">
+          <div class="card col-12 col-sm-6 col-md-3">
+            <img src="img/garden1.jpg" class="card-img-top" alt="garden1 of featured-gardens">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-            <p> JULIET'S GARDEN</p>
-            <p>This is just a place holder,so you can see what the site would look like.</p>
           </div>
-          <div class="col-md-3 p-2 ">
-            <div class="img-width  ">
-              <img src="img/garden2.jpg" alt="" class="w-100">
+          <div class="card col-12 col-sm-6 col-md-3">
+            <img src="img/garden2.jpg" class="card-img-top" alt="garden2 of featured-gardens">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-            <p>JOANNE'S GARDEN</p>
-            <p>This is just a place holder,so you can see what the site would look like.</p>
           </div>
-          <div class="col-md-3 p-2">
-            <div class="img-width ">
-              <img src="img/garden3.jpg" alt="" class="w-100">
+          <div class="card col-12 col-sm-6 col-md-3">
+            <img src="img/garden3.jpg" class="card-img-top" alt="garden3 of featured-gardens">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-            <p>JETTKA'S GARDEN</p>
-            <p>This is just a place holder,so you can see what the site would look like.</p>
           </div>
-          <div class=" col-md-3 p-2">
-            <div class="img-width ">
-              <img src="img/garden4.jpg" alt="" class="w-100">
+          <div class="card col-12  col-sm-6 col-md-3">
+            <img src="img/garden4.jpg" class="card-img-top" alt="garden4 of featured-gardens">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-            <p>JIA'S GARDEN</p>
-            <p>This is just a place holder,so you can see what the site would look like.</p>
+          </div>
+        </section>
+      </secction>
+      <!-- article -->
+      <section class="row tips_week">
+        <div class="col-12 col-md-4">
+          <img src="img/gardening5.jpg" alt="tips_week">
+        </div>
+        <div class="col-12 col-md-8 tips_title g-0">
+          <div class="col ">
+            <h3>TIPS OF THE WEEK</h3>
+          </div>
+          <div class="col">
+            <ol class="list-group list-group-numbered">
+              <li>
+                This is just a place holder,so you can see what the site would look
+                like.This is just a place
+                holder,so
+                you can see what the site would look like.
+              </li>
+
+              <li>This is just a place holder,so you can see what the site would look
+                like.This is just a place
+                holder,so
+                you can see what the site would look like.</li>
+              <li>This is just a place holder,so you can see what the site would look
+                like.This is just a place
+                holder,so
+                you can see what the site would look like.</li>
+
+            </ol>
           </div>
         </div>
       </section>
-      <!-- section2 text-content-->
-      <section class="text-content d-md-flex py-3">
-        <div>
-          <div class="text-content-left me-3">
-            <img src="img/gardening5.jpg" alt="w-100">
-          </div>
-        </div>
-        <div class="text-content-right">
-          <h3 class="mb-3">TIPS OF THE WEEK</h3>
-          <ol>
-            <li>This is just a place holder,so you can see what the site would look like.This is just a place holder,so
-              you can see what the site would look like.</li>
-            <li>This is just a place holder,so you can see what the site would look like.This is just a place holder,so
-              you can see what the site would look like.</li>
-            <li>This is just a place holder,so you can see what the site would look like.This is just a place holder,so
-              you can see what the site would look like.</li>
-          </ol>
-        </div>
-      </section>
-
-    </main>
-    <!-- main外面section -->
-    <!-- section contact-content-->
-    <section class=" contact-content ">
-      <div class=" d-md-flex g-0 wrap-contact">
-        <div class="col pb-5">
-          <p class="contact-content-font mb-3">PLACE HOLDER</p>
+      <!-- 電腦 -->
+      <div class="row footer_pc">
+        <div class="col">
+          <h4> PLACE HOLDER</h4>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
         </div>
-        <div class="col pb-5">
-          <p class="contact-content-font mb-3">PLACE HOLDER</p>
+        <div class="col">
+          <h4> PLACE HOLDER</h4>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
         </div>
-        <div class="col pb-5">
-          <p class="contact-content-font mb-3">PLACE HOLDER</p>
+        <div class="col">
+          <h4> PLACE HOLDER</h4>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
           <p>This is just a place holder.</p>
         </div>
-        <div class="contact col pb-5">
-          <p class="contact-content-font mb-3">Contact</p>
-          <a class="d-block text-decoration-none " href="##"><i class="fas fa-envelope fa-fw"></i>Email us</a>
-          <a class="d-block text-decoration-none" href="##"><i class="fab fa-facebook-square fa-fw"></i>Facebook</a>
-          <a class="d-block text-decoration-none" href="##"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
-          <a class="d-block text-decoration-none" href="##"><i class="fab fa-google-plus-square fa-fw"></i>Google+</a>
-
+        <div class="col">
+          <h4>CONNECT</h4>
+          <a href="##"><i class="fas fa-envelope fa-fw"></i> Email us</a>
+          <a href="##"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a>
+          <a href="##"><i class="fab fa-twitter-square fa-fw"></i> Twitter</a>
+          <a href="##"><i class="fab fa-google-plus-square fa-fw"></i> Google+</a>
         </div>
       </div>
-
-    </section>
+      <!-- 手機 -->
+      <div class="row footer_mobile ">
+        <div class="dropdown col-12">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            PLACE HOLDER
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+          </ul>
+        </div>
+        <div class="dropdown col-12">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            PLACE HOLDER
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+          </ul>
+        </div>
+        <div class="dropdown col-12">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            PLACE HOLDER
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+            <li><a class="dropdown-item" href="#">This is just a place holder.</a></li>
+          </ul>
+        </div>
+        <div class="dropdown col-12">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            CONNECT
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <a href="##"><i class="fas fa-envelope fa-fw"></i> Email us</a>
+            <a href="##"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a>
+            <a href="##"><i class="fab fa-twitter-square fa-fw"></i> Twitter</a>
+            <a href="##"><i class="fab fa-google-plus-square fa-fw"></i> Google+</a>
+          </ul>
+        </div>
+      </div>
+      </secction>
+    </main>
     <!-- footer -->
     <footer class="text-center py-2">
       <p class="text-white ">Garden Walkthrough © 2023 | All Right Reserved</p>
@@ -262,3 +312,5 @@ sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4' crossor
 </body>
 
 </html>
+<!-- 
+<img src="./Template_3.png" alt=""> -->
