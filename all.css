@@ -1,7 +1,7 @@
-
+/* 
 *{
     outline: 1px red solid;
-} 
+}  */
 body{
     background: url(img/bg-body.jpg),repeat;
     min-width: 320px;
@@ -126,10 +126,13 @@ h5{
     border: 0;
     padding: 24px;
 }
+
 .banner_card .card-body{
     padding:0 0 0 24px
 }
-
+.wrap_img{
+    border:3px solid #fff;
+}
 .banner_card p{
     color:#fff;
     font-size: 14px;
@@ -148,7 +151,7 @@ h5{
     background-color: #fff;
     padding: 24px
 }
-/* ~featured-garden */
+/*featured-garden */
 @media(min-width: 992px){
     .happy_Gardener,.planting{
         padding-left: 24px;
@@ -215,7 +218,6 @@ h6{
         width: 100%;
     }
 }
-
 .tips_week_img{
     text-align: center;
 }
