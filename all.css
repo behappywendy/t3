@@ -188,9 +188,9 @@ h6{
 @media(min-width: 576px){
     h6{font-size: 15px;}
 }
-.featured-gardens img {
-    margin:0 auto
- }
+.featured-gardens img{
+    margin-bottom: 24px;
+}
 .featured-gardens {
     padding-bottom: 24px;
 }
