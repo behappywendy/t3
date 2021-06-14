@@ -197,6 +197,12 @@ h6{
 .featured-gardens{
     border-bottom:  2px solid rgb(206, 205, 201);
 }
+.featured-gardens div{
+    margin-bottom: 20px;
+}
+@media(min-width: 576px){
+    margin-bottom: 0;
+}
 /* tips_week */
 .tips_week{
     margin-top: 24px;
