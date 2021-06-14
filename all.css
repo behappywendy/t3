@@ -207,9 +207,15 @@ h6{
 .tips_week li{
     margin-bottom: 24px;
 }
-.tips_week_img img{
-    max-width: 100%;
+.tips_week img{
+    max-width:100% ;
 }
+@media(min-width: 576px){
+    .tips_week img{
+        width: 100%;
+    }
+}
+
 .tips_week_img{
     text-align: center;
 }
