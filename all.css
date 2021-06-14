@@ -256,6 +256,7 @@ h4{
     color:rgb(124,121,126);
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 24px;
 }
 @media(min-width: 768px){
 .footer_mobile{
