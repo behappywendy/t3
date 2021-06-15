@@ -1,7 +1,7 @@
-
+/* 
 *{
     outline: 1px red solid;
-} 
+}  */
 body{
     background: url(img/bg-body.jpg),repeat;
     min-width: 320px;
@@ -121,13 +121,10 @@ h5{
     margin-top:24px;
     margin-bottom: 24px;
 }
-.banner_card .card-body{ 
-    border: 0;
-}
-
 .banner_card .card{
     margin-left: 24px;
     background-color: rgb(50,102,23);
+    border: 0;
 }
 .wrap_img{
     border:3px solid #fff;
@@ -136,26 +133,57 @@ h5{
     color:#fff;
     font-size: 14px;
 }
-/* @media(min-width: 992px){
-    .border-right{
-        border-right: 2px solid rgba(172, 201, 156,0.2);
-        border-radius: 0;
+@media(min-width: 576px){
+    .banner_card{
+        display: flex;
     }
-} */
+}
+.banner_card img{
+    max-width: 100%;
+}
+@media(min-width: 576px){
+    .banner_card img{
+        width: 100%;
+    }
+}
+
 .banner_card .card img{
     border: 2px solid #fff;
-    width: 100%;
 }
+
 .banner_card .card-body{
     padding: 0;
 
 }
-.banner_card .card-title{
-    margin-bottom: 24px;
+@media(min-width: 576px){
+    .banner_card .card-title{
+        margin-bottom: 24px;
+    }
+
 }
+
+@media(min-width: 768px){
+    .banner_card .border_right{
+        border-right: 1px solid rgba(231, 231, 224, 0.5);
+        border-radius: 0;
+        
+    }
+
+}
+.banner_card .card{
+    margin-bottom: 20px;
+}
+@media(min-width: 576px){
+    .banner_card .card{
+        margin-bottom: 20px;
+    }
+
+}
+
 /* content */
 .content{
     background-color: #fff;
+    
     padding: 24px
 }
 /*featured-garden */
