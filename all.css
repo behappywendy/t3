@@ -146,7 +146,16 @@ h5{
         width: 100%;
     }
 }
+.banner_card .card{
+    text-align: center;
 
+}
+@media(min-width: 576px){
+
+    .banner_card .card{
+        text-align: initial;
+    }
+}
 .banner_card .card img{
     border: 2px solid #fff;
 }
@@ -330,7 +339,9 @@ h4{
 .footer_mobile a:hover{
     color:red;
 }
-
+.footer_mobile .card-body{
+    background-color: rgb(187, 212, 176)
+}
 /* footer_pc */
 .footer_pc >div{
     padding-left: 24px;
