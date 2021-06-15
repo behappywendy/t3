@@ -203,6 +203,18 @@ h6{
 @media(min-width: 576px){
     margin-bottom: 0;
 }
+.featured-gardens div{
+    text-align: center;
+}
+@media(min-width: 576px){
+    .featured-gardens div{
+        text-align: initial;
+    }
+
+}
+.featured-gardens p{
+    text-align: left;
+}
 /* tips_week */
 .tips_week{
     margin-top: 24px;
@@ -322,7 +334,6 @@ h4{
         font-size: 22px;
     }
 }
-
 .footer_pc p{
     font-size: 12px;
     margin-bottom: 15px;
