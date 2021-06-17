@@ -64,7 +64,6 @@ h1 img{
     .menu ul{
         border-bottom: 1px solid #fff;
     }
-
 }
 @media(min-width: 576px){
     .menu .collapse a{
@@ -158,6 +157,14 @@ h5{
         font-size: 16px;
     }
 }
+.banner_card .wrap_card{
+    margin-right: 10px;
+}
+@media(min-width: 576px){
+    .banner_card .wrap_card{
+        margin-right: 0px;
+    }
+}
 .banner_card{
     margin-top:24px;
     margin-bottom: 24px;
@@ -201,7 +208,6 @@ h5{
     text-align: initial;
 }
 
-
 @media(min-width: 992px){
     .banner_card .card-body{
         padding:0 0 0 24px;
@@ -219,7 +225,6 @@ h5{
         border-radius: 0;
     }
 }
-
 /* .banner_card .card{
     margin-bottom: 20px;
 }
@@ -228,8 +233,13 @@ h5{
         margin-bottom: 0px;
     }
 } */
-.wrap_card{
+.banner_card .wrap_card{
     margin-bottom: 24px;
+}
+@media(min-width: 576px){
+ .wrap_card{
+     margin-right: 0px;
+ }
 }
 @media(min-width: 992px){
     .wrap_card{
@@ -355,12 +365,14 @@ h6{
 .tips_week li::marker{
     font-weight: 600;
 }
-.tips_title{
-    left: 24px;
+
+@media(min-width: 576px){
+    .tips_week_text{
+        margin-left: 24px;
+    }
 }
-.tips_week_text{
-    margin-left: 24px;
-}
+
+
 /* 練習 */
 /* .tips_week ol{
     counter-reset: num;
@@ -476,15 +488,12 @@ h4{
     text-decoration: none;
     font-size: 12px;
     margin-bottom: 10px;
+    /* transition: color .3s; */
 }
-
 @media(min-width: 992px){
     .footer_pc a{
         font-size: 16px;
     }
-}
-.pc_connect a:hover{
-    color:red;
 }
 /* footer */
 .copy-right p{
